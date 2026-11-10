@@ -17,7 +17,11 @@
     "paths": {
       "@enterprise-angular-nx-monorepo/products": [
         "./modules/products/src/index.ts"
-      ]
+      ],
+      "@enterprise-angular-nx-monorepo/orders": [
+        "./modules/orders/src/index.ts"
+      ],
+      "@enterprise-angular-nx-monorepo/ui": ["./modules/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
